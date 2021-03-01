@@ -10,4 +10,14 @@
   background: red;
   color: #fff;
 }
+.timer {
+  font-size: 30px;
+  margin-left: 100px;
+}
+.timer_red {
+  color: rgb(179, 24, 24);
+}
+.timer_green {
+  color: rgb(144, 211, 43);
+}
 
