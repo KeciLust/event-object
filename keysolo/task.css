@@ -13,11 +13,11 @@
 .timer {
   font-size: 30px;
   margin-left: 100px;
+  color: rgb(144, 211, 43);
 }
 .timer_red {
   color: rgb(179, 24, 24);
+  font-size: 40px;
 }
-.timer_green {
-  color: rgb(144, 211, 43);
-}
+
 

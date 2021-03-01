@@ -24,12 +24,12 @@ class Game {
       timerText.textContent = timerText.textContent - 1;
     } else if (timerText.textContent <= 3 && timerText.textContent > 0) {
       timerText.textContent = timerText.textContent - 1;
-      timerText.classList.remove(`timer_green`);
+      
       timerText.classList.add(`timer_red`);
     } else {
       this.fail();
       timerText.classList.remove(`timer_red`);
-      timerText.classList.add(`timer_green`);
+      
       timerText.textContent = Array.from(document.getElementsByClassName(`symbol`)).length;
     }
   },1000);
@@ -88,7 +88,9 @@ class Game {
         'popcorn',
         'cinema',
         'love',
-        'javascript'
+        'javascript',
+        'lustery',
+        'keci'
       ],
       index = Math.floor(Math.random() * words.length);
 
